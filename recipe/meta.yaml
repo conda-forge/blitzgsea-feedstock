@@ -1,5 +1,5 @@
 {% set name = "blitzgsea" %}
-{% set version = "1.3.40" %}
+{% set version = "1.3.47" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/blitzgsea-{{ version }}.tar.gz
-  sha256: 88df2c96dd52c4d29cacf69aa9fff628f8e3efcb54f121ce2df68cb842361a64
+  sha256: 952fe66777b270e244d91ae6596fbdfba7ea12abd8376c56467a6beae2124a98
 
 build:
   noarch: python
